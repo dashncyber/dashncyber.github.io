@@ -1,0 +1,122 @@
+header {
+    background-color: rgba(82, 0, 150, 0.5);
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-family: "Copperplate Gothic", sans-serif;
+  }
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #FFFF00;
+    font-family: "Copperplate Gothic", sans-serif;
+}
+
+h3.giovanna {
+    text-align: center;
+    color: rgba(17, 169, 33)
+}
+
+h3.marisa {
+    text-align: center;
+    color: rgba(175, 9, 9)
+}
+
+body {
+    background-image: url("images/ggstxsf6.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    max-width: 95%;
+    margin: 20px;
+    padding: 20px 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    text-align:center
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+
+nav {
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #008000;
+}
+
+nav li {
+    display: inline;
+    margin-right:15px
+}
+
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgba(82, 0, 150, 0.5);
+  display:inline-table
+
+}
+
+th,
+td {
+  font-family: "Arial", sans-serif;
+  text-align: left;
+  color: #380300;
+  width: 100px;
+  border: 5px solid rgba(82, 0, 150, 0.5);
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
